@@ -1,29 +1,32 @@
-# web-dev-starter
-
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+# CS408 - M7.2 Lab
+    This project is showing how and what you can do for different
+    display options. As well as different layout options in general. 
+    
+    We are given a file and then we are tasked with adding layout to
+    the project. We do were also not tasked with changing the overall 
+    index design just strictly the CSS.
 
 ## Getting Started
+    To get started, clone this repository, and then you can learn 
+    to view it in the "Viewing" section. Which is below.
 
-To get started, clone this repository and run the following commands:
+## Viewing
+    I highly recommend using VSCode Live Server extention to see the project. 
+    This allows you to see the page, and interact with the page without 
+    having to open it in a local file.
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+    The file that you will be looking at for this project in my github is called "index.html"
 
-## Development
-
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+## Verification
+   As we only really changed the CSS I only went and verified that file. 
+   The verification said that it was good. I only slightly did some modifications
+   to index to make it work with what I personally have thing set up as. Which means
+   fixing the link for the style sheet and then where the images themselves are located.
 
 ## Testing
+    For this particular project there was no 
+    extra tests and no tests that need to be ran.
 
-To run the tests for the project, run the following command:
-
-```bash
-npm test
-```
+## References
+    I went and took a look back at the notes that we have been given for 
+    display. I wanted to see the different options and How to get them to work.
