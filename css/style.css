@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 .logo {
@@ -21,17 +21,28 @@ img {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+
+  display: flex;
 }
 
 nav {
   background-color: #000;
   padding: .5em;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 nav a {
@@ -41,11 +52,26 @@ nav a {
 }
 
 .photos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .feature {
-    width: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+aside {
+  margin-left: 15px; 
+  flex: 30%;
+}
+
+article {
+  flex: 70%;
 }
